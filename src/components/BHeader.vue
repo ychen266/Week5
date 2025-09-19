@@ -14,6 +14,10 @@
         </li>
 
         <li class="nav-item">
+          <router-link to="/addbook" class="nav-link" active-class="active">Add Book</router-link>
+        </li>
+
+        <li class="nav-item">
           <router-link to="/Firelogin" class="nav-link" active-class="active">
             Firebase Login
           </router-link>

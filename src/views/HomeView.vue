@@ -226,6 +226,7 @@ const hasFriendKeyword = computed(() => {
       </div>
     </div>
   </div>
+
 </template>
 
 <style scoped>

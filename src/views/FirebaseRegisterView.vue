@@ -20,7 +20,7 @@ const register = () => {
   createUserWithEmailAndPassword(auth, email.value, password.value)
     .then((data) => {
       console.log("Firebase Register Successful!")
-      router.push("/FireLogin") // 注册成功后跳转到登录页面
+      router.push("/FireLogin") 
     })
     .catch((error) => {
       console.log(error.code)

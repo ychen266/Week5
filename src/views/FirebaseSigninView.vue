@@ -20,8 +20,8 @@ const signin = () => {
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then((data) => {
       console.log("Firebase Sign-in Successful!")
-      router.push("/") // 登录成功后跳转到首页
-      console.log(auth.currentUser) // 查看当前登录用户信息
+      router.push("/")
+      console.log(auth.currentUser) 
     })
     .catch((error) => {
       console.log(error.code)
